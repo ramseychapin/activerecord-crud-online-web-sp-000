@@ -35,11 +35,11 @@ def can_be_created_in_a_block
 end
 
 def can_get_the_first_item_in_the_database
-  self.first
+  Movie.first
 end
 
 def can_get_the_last_item_in_the_database
-  self.last
+  Movie.last
 end
 
 def can_get_size_of_the_database
