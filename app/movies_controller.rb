@@ -35,7 +35,7 @@ def can_be_created_in_a_block(attributes)
 end
 
 def can_get_the_first_item_in_the_database
-  __
+  self.first.title
 end
 
 def can_get_the_last_item_in_the_database
